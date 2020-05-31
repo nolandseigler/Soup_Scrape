@@ -8,3 +8,6 @@ soup = BeautifulSoup(webpage, "html.parser")
 
 print(soup.p)
 print(soup.p.string)
+
+for children in soup.div:
+  print(children)
