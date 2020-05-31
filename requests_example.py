@@ -11,3 +11,7 @@ print(soup.p.string)
 
 for children in soup.div:
   print(children)
+
+turtle_links = soup.find_all('a')
+
+print(turtle_links)
